@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from "./components/Banner/Banner";
+import BoxList from "./components/BoxList/BoxList";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import { BrowserRouter as Router } from 'react-router-dom';
+import BestProduct from "./components/BestProduct/BestProduct";
+import Introduction from "./components/Introduction/Introduction";
+import BrandStory from "./components/BrandStory/BrandStory";
+import BrandIssue from "./components/BrandIssue/BrandIssue";
+import Video from "./components/Video/Video";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+ <div className="App">
+      <div className="main">
+      <Header />
+      <Banner />
+      <Introduction />
+      <BestProduct />
+      <BoxList />
+      <BrandStory />
+      <BrandIssue />
+      <Video />
+      <Footer />
+      </div>
+     
     </div>
+    </Router>
+   
   );
 }
 

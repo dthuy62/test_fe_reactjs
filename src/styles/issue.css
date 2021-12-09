@@ -1,0 +1,145 @@
+.issue {
+    position: relative;
+    justify-content: center;
+    padding: 100px 0;
+}
+.wrap_title_issue {
+    width: 100%;
+}
+.text_title_issue {
+    font-size: 3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 4.5px;
+    color: var(--dark-brown);
+    text-align: center;
+}
+.text_desc_issue {
+    font-size: 1vw;
+    font-family: 'NotoSansCJKkr';
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+     color: var(--dark-brown);
+    text-indent: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+.wrap_title_issue .view_more {
+    width: max-content;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.card-orange {
+    background-color: #ff5500 !important;
+}
+.wrap_card_start {
+    background: #ff5500;
+    border-top: 2px solid #111111;
+    border-bottom: 2px solid #111111;
+}
+.item_card {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.wrap_content_issue {
+    position: relative;
+    margin-top: 70px;
+}
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+}
+.card {
+    background: #111111;
+    border-radius: 0;
+    border: 0;
+}
+
+.card_start span {
+    word-break: break-all;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+  width: 11vw;
+  margin: 0 auto;
+  margin-top: 80px;
+font-size: 3vw;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.04;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark-brown);
+  text-transform: uppercase;
+}
+.icon_start {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.icon_start img {
+    width: 100%;
+}
+.wrap_icon_circle {
+    position: absolute;
+    left: 11%;
+    bottom: 0;
+    margin-bottom: -5vw;
+}
+.wrap_icon_circle img{
+    width: 10vw;
+}
+.wrap_icon_hot {
+    position: absolute;
+    left: 21%;
+    top: 0;
+    margin-top: -1.5vw;
+}
+.wrap_icon_hot img {
+    height: 3vw;
+}
+.wrap_icon_dices {
+    position: absolute;
+
+}
+.wrap_icon_dices img {
+
+}
+.wrap_icon_lol {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -3vw;
+    right: 18%;
+
+}
+.wrap_icon_lol img {
+    height: 6vw;
+}
+.wrap_icon_dices {
+    position: absolute;
+    right: 5%;
+    top: 50px;
+    display: grid;
+    row-gap: 20px;
+    align-items: flex-end;
+}
+.icon_dice_3{
+    width: 7vw;
+}
+.icon_dice_5{
+    margin-left: 1vw;
+    width: 6vw;
+}

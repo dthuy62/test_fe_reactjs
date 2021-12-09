@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  :root {
+    --black-two: #1A1A1A;
+    --white: #FFFFFF;
+    --bright-orange: #f96400;
+    --dark-maroon:#020001;
+    --dark-brown:#110e03;
+    --black-three: #222222;
+    --cerulean: #0565bb;
+    --brownish-grey: #666666;
+    --sun-yellow: #fcd32a;
+    --greyish: #a9a9a9;
+}
+  /* ----- Header ---- */
+  @import url('./header.css');
+  /* ----- Main Banner ---- */
+  @import url('./main_banner.css');
+  @import url('./introduction.css');
+  @import url('./best_product.css');
+  @import url('./list_products.css');
+  @import url('./brand.css');
+  @import url('./issue.css');
+  @import url('./video.css');
+  @import url('./footer.css');

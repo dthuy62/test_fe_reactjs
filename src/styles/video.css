@@ -1,0 +1,125 @@
+.video {
+    position: relative;
+    justify-content: center;
+    padding: 100px 0;
+    overflow: hidden;
+}
+.wrap_title_video {
+    width: 100%;
+}
+.text_title_video {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #111;
+}
+.text_desc_video {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #111;
+    text-indent: 20px;
+    width: 32%;
+    margin: 0 auto;
+}
+.wrap_title_video .view_more {
+    width: max-content;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.wrap_video_center {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 70%;
+    position: relative;
+    margin-bottom: 200px;
+   
+}
+.wrap_video_center img {
+    width: 100%;
+    z-index: 999;
+}
+.icon_video_top_left {
+    position: absolute;
+    left: 9%;
+    top: 0;
+    width: 6vw;
+}
+.icon_video_top_left img {
+    width: 100%;
+}
+.icon_video_left {
+    position: absolute;
+    left: -13vw;
+    top: 240px;
+}
+.icon_video_left img {
+    height: 20vw;
+}
+.icon_bottom_left {
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    left: 0;
+    width: 10%;
+    margin-left: -8%;
+    margin-bottom: -6%;
+}
+.icon_bottom_right {
+    position: absolute;
+    left: 0.5%;
+    bottom: 0;
+    width: 30%;
+    z-index: 1;
+    margin-bottom: -18.5%;
+}
+.icon_video_pink {
+    position: absolute;
+    right: 0;   
+    width: 40%;
+    margin-right: -35%;
+    bottom: 0;
+    margin-bottom: -8vw;
+    z-index: 1;
+}
+.icon_video_pink img {
+    width: 100%;
+}
+.icon_video_inky {
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    width: 25%;
+    margin-right: -34%;
+    bottom: 10vw;
+}
+.icon_top_right_bottom {
+    position: absolute;
+    top: 11vw;
+    width: 5vw;
+    right: 14%;
+    z-index: 1;
+
+}
+.icon_top_right_top {
+    position: absolute;
+    top: 8vw;
+    width: 6vw;
+    right: 10%;
+    z-index: 0;
+
+}
+.icon_top_right_top img, .icon_top_right_bottom img {
+    width: 100%;
+}

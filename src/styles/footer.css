@@ -1,0 +1,46 @@
+.wrap_contact_footer {
+
+}
+.wrap_icons_footer {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+}
+.wrap_icons_footer img {
+    width: max-content;
+    height: max-content;
+}
+.title_footer {
+    font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #111;
+}
+.desc_footer {
+    max-width: 260px;
+    font-family: 'NotoSansCJKkr';
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #111;
+}
+.contact_footer {
+    font-family: 'NotoSansCJKkr';
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish);
+}
